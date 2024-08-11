@@ -1,0 +1,25 @@
+.google{display:flex;
+  gap:10px;
+  justify-content:center;
+  align-items:center;height:200px}
+.google>div{
+  height:30px;
+  width:30px;
+  border-radius:50%;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
+}
+.dot1{background-color:#5c5ce8}
+.dot2{background-color:#e23838}
+.dot3{background-color:#f1a10c}
+.dot4{background-color:#09b409}
+.dot1{animation: jump}
+.dot2{animation: jump2 2s 0.4s} 
+.dot3{animation: jump3 2s 0.6s}
+.dot4{animation: jump4 2s 0.8s}
+@keyframes jump{100%{transform:translateY(-20px)}}
+@keyframes jump2{100%{transform:translateY(-20px)}}
+@keyframes jump3{100%{transform:translateY(-20px)}}
+@keyframes jump4{100%{transform:translateY(-20px)}}
+
